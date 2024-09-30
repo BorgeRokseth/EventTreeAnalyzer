@@ -1,0 +1,38 @@
+# Ignore Python virtual environments
+venv/
+env/
+.venv/
+ENV/
+.ENV/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# PyInstaller
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+.hypothesis/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Ignore IDE project files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
